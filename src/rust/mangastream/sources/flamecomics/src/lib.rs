@@ -8,7 +8,7 @@ use mangastream_template::template::MangaStreamSource;
 
 fn get_instance() -> MangaStreamSource {
 	MangaStreamSource {
-		base_url: String::from("https://flamecomics.com"),
+		base_url: String::from("https://flamecomics.xyz"),
 		has_permanent_manga_url: true,
 		has_permanent_chapter_url: true,
 		traverse_pathname: "series",
